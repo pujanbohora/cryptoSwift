@@ -52,7 +52,7 @@ extension CoinRowView {
                 .foregroundColor(.theme.secondaryText)
                 .frame(minWidth: 30)
             
-            Circle()
+            CoinImageView(coin: coin)
                 .frame(width: 30, height: 30)
             Text(coin.symbol.uppercased())
                 .font(.headline)
@@ -78,7 +78,7 @@ extension CoinRowView {
             )
                 .bold()
                 .foregroundColor(.theme.accent)
-            Text(coin.percentChange24H ?? "")
+            Text(Double(coin.percentChange24H ?? "0")?.asNumberString() ?? "")
                 .foregroundColor( (Double(coin.percentChange24H ?? "0") ?? 0)  >= 0 ?
                     .theme.green :
                         .theme.red

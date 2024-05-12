@@ -35,6 +35,7 @@ struct CoinModel: Codable {
 
 struct CoinDatum: Identifiable, Codable {
     let id, symbol, name, nameid: String
+    let image: String = "https://i.pinimg.com/564x/c8/05/83/c80583d4410bcd1bd6cce620087b40e0.jpg"
     let rank: Int
     let priceUsd: String
     let percentChange24H, percentChange1H, percentChange7D: String?
@@ -45,6 +46,7 @@ struct CoinDatum: Identifiable, Codable {
     
     enum CodingKeys : String, CodingKey {
         case id, symbol, name, nameid
+        case image
         case rank
         case priceUsd = "price_usd"
         case percentChange24H = "percent_change_24h"
