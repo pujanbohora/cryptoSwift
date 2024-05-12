@@ -21,7 +21,6 @@
 		12E544432BEF72DD00B71CC2 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E544422BEF72DD00B71CC2 /* Double.swift */; };
 		12E544452BEFC20600B71CC2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E544442BEFC20600B71CC2 /* HomeViewModel.swift */; };
 		12E544482BEFC7D300B71CC2 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E544472BEFC7D300B71CC2 /* CoinDataService.swift */; };
-		12E5444C2BEFDCE500B71CC2 /* responseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E5444B2BEFDCE500B71CC2 /* responseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 		12E544442BEFC20600B71CC2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		12E544472BEFC7D300B71CC2 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		12E544492BEFD1E700B71CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		12E5444B2BEFDCE500B71CC2 /* responseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = responseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +72,6 @@
 		12AE524A2BED12870018AA1C /* SwiftCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				12E5444A2BEFDCCC00B71CC2 /* testingViews */,
 				12E544492BEFD1E700B71CC2 /* Info.plist */,
 				12E544462BEFC7B100B71CC2 /* Services */,
 				12E5443B2BEE77A000B71CC2 /* Models */,
@@ -174,14 +171,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		12E5444A2BEFDCCC00B71CC2 /* testingViews */ = {
-			isa = PBXGroup;
-			children = (
-				12E5444B2BEFDCE500B71CC2 /* responseModel.swift */,
-			);
-			path = testingViews;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -261,7 +250,6 @@
 				12AE52682BED2D390018AA1C /* CircleButtonView.swift in Sources */,
 				12AE525D2BED16CE0018AA1C /* Color.swift in Sources */,
 				12E5443A2BEE75F300B71CC2 /* CircleButtonAnimationView.swift in Sources */,
-				12E5444C2BEFDCE500B71CC2 /* responseModel.swift in Sources */,
 				12E544412BEF6EE400B71CC2 /* PreviewProvider.swift in Sources */,
 				12E544432BEF72DD00B71CC2 /* Double.swift in Sources */,
 				12E5443D2BEE77E800B71CC2 /* CoinModel.swift in Sources */,

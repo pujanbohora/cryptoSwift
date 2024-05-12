@@ -80,4 +80,10 @@ extension Double {
     func asPrecentString() -> String {
         return asNumberString() + "%"
     }
+    
+    ///Converts a String  into Int representation
+    func asNumberInt() -> Int? {
+        return Int(self)
+    }
+
 }
