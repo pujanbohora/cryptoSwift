@@ -36,7 +36,7 @@ struct HomeView: View {
                 columnTItles
             
                 if !showPortfolio {
-                    allCoinsList
+                    allCoinsLists
                     .transition(.move(edge: .leading))
                 }
                 
@@ -101,7 +101,8 @@ extension HomeView {
         .padding(.horizontal)
     }
     
-    private var allCoinsList: some View {
+    private var allCoinsLists: some View {
+        
         List {
             ForEach(vm.allCoins) {
                 coin in CoinRowView(coin: coin, showHoldingsColumn: false)
